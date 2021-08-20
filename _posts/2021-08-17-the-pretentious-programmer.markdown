@@ -11,8 +11,6 @@ We have describe the medical system in the dark ages. Now, let's talk about anot
 
 Humanity has only been doing this in any real sense for the past sixty years, and let's be honest, we are still pretty bad at it. Late software projects with bugs that you can't easily change are the norm, not the exception. We are in the dark ages of programming. I am sure there are going to be revolutions about how we think about programming in the next hundred years, and the way we are doing software now is going to be completely different in one-hundred years. Most likely, how humanity currently thinks and does programming is going to be different, thus, what you are doing today most likely is wrong! By the way, if you do not believe that things are going to be drastically different, note that [about one in three software projects fail.][jekyll-docs] Someone somewhere is going to get this right, so things are going to be changing.
 
-Our about page always promised to show some data to go along with any assertion that we make, so let's not just use anecdotal evidence. [About one in three software projects fail.][jekyll-docs] This is quite a large amount of failure. And for how confident the average software developer sounds most of the time, it seems odd that there is such a large failure rate given about how good we are at our jobs.
-
 But let's jump into scenarios that you may have personally come across. Tell me if you have ever had one of the following conversations:
 
 `Good lord I hate language X. Obviously the best langauage is Y. I try to do one simple thing in X and I need ten lines, but with Y, you know what, I get it done in three. Three lines are obviously smaller than ten, thus, Y is better. For this project, I will now use Y!`
