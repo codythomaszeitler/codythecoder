@@ -16,7 +16,6 @@ plugins:
 
 lsi: false
 safe: true
-source: [/]
 incremental: false
 highlighter: rouge
 gist:
