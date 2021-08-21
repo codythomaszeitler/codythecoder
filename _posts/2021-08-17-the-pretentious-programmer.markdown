@@ -5,13 +5,15 @@ date:   2021-08-17 18:43:02 -0700
 categories: jekyll update
 ---
 
-Bloodletting was considered the defacto practice [for about a span of over 2,000 years][bloodletting]. For a long time, doctors would treat sick people by cutting them and letting the "illness" spill out of them. A signficiant portion of the population at the time took this as a truth, influenced by nothing only be sometimes someone would get better by doing it. 
+Bloodletting was considered the defacto practice [for about a span of over 2,000 years][bloodletting]. For a long time, doctors would treat sick people by cutting them and letting the "illness" spill out of them. A signficiant portion of the population at the time took this as a truth, influenced by nothing only be sometimes someone would get better by doing it. This was our assumption about the medical profession and caused humanity a great deal of harm.
 
-We have describe the medical system in the dark ages. Now, let's talk about another human dicipline that is in the dark ages, programming. 
+We have describe the medical system stuck in the dark ages by its own ignorance. Now, let's talk about another human dicipline that is in the dark ages, and could be argued to be just as important, programming. 
 
-Humanity has only been doing this in any real sense for the past sixty years, and let's be honest, we are still pretty bad at it. Late software projects with bugs that you can't easily change are the norm, not the exception. We are in the dark ages of programming. I am sure there are going to be revolutions about how we think about programming in the next hundred years, and the way we are doing software now is going to be completely different in one-hundred years. Most likely, how humanity currently thinks and does programming is going to be different, thus, what you are doing today most likely is wrong! By the way, if you do not believe that things are going to be drastically different, note that [about one in three software projects fail.][jekyll-docs] Someone somewhere is going to get this right, so things are going to be changing.
+Humanity has only been doing programming in any real sense for the past sixty years, and let's be honest, we are still pretty bad at it. Late software projects with bugs that are rigid to extension are the norm, not the exception. 
 
-But let's jump into scenarios that you may have personally come across. Tell me if you have ever had one of the following conversations:
+I am sure there are going to be revolutions about how we think about programming in the next hundred years, and the way we are doing software now is going to be completely different in one-hundred years. Most likely, how humanity currently thinks and does programming is going to be different, thus, what you are doing today is most likely wrong! By the way, if you do not believe that things are going to be drastically different, note that [about one in three software projects fail.][jekyll-docs] Someone somewhere is going to get this right (there's a definite market incentive for it), so things will change.
+
+So the following comments are commentary that you hear *today*. This commentary is most likely incorrect because of the immense amount of failures that we face as an industry. The question is *why* are these comments wrong?
 
 `Good lord I hate language X. Obviously the best langauage is Y. I try to do one simple thing in X and I need ten lines, but with Y, you know what, I get it done in three. Three lines are obviously smaller than ten, thus, Y is better. For this project, I will now use Y!`
 
@@ -23,13 +25,12 @@ While all of these statements can have their merit, I am going to make quite the
 
 Let me clarify, because I firmly believe this statement is going to be drastically misrepresented. I am not saying someone who has uttered the top three statements has never provided anything of value to a stakeholder. They most definitely have. However, in terms of how their code they are missing what gives it an immense amount of value then just doing what the customer asked.
 
-There is one almost one universal value that allows two pieces of code to be compared objectively, which is something that we do not do as an industry. I swear all of our arguments are based off of emotion, not objectivity, which is odd since we are using little logic machines. (I hate anecdoctal evidence as much as the next guy, but every piece of code I have ever been described as being "bad" always somehow gets that credit within seconds of looking at it).
+There is one almost one universal value that allows two pieces of code to be compared objectively, which is something that we do not do as an industry. I swear all of our arguments are based off of emotion, not objectivity, which is odd since we are using little logic machines. (I hate anecdoctal evidence as much as the next guy, but every piece of code I have ever been described as being "bad" always somehow gets that credit within seconds of looking at it. You would think it would take years of working with something to truly know if it was bad, and measuring that can be oh so difficult!).
 
-
-The definition of good code is as follows. This is the definition BECAUSE it saves your stakeholders money:
+The definition of good code is as follows. This is the definition **because** it saves your stakeholders money:
 : Given two implementations, A and B, the objectively better one is the that is easier to change with respect to future user requirements.
 
-> Just one point of clarification, the *with respect to future user requirements* is a very important statement. You can make tons of statements about something being better than another, however, many of them end up being mute since they don't provide any value in context of your stakeholder. For example, so many people blindly apply design patterns without any consideration if there is any change their stakeholder would ask for that utlizes that design pattern! Most of them are just empty complexity that do nothing but shine the ego of the developer implementing them! Complexity is our greatest enemy! You add it at your own peril! 
+> Just one point of clarification, the *with respect to future user requirements* is crucial to understand. You can make tons of statements about something being better than another, however, many of them end up being mute since they don't provide any value in context of your stakeholder. For example, so many people blindly apply design patterns without any consideration if there is any change their stakeholder would ask for that utlizes that design pattern! Most of them are just empty complexity that do nothing but shine the ego of the developer implementing them! Complexity is our greatest enemy! You add it at your own peril! 
 
 So our above three statements, let's review them, but under the context of being easier to change.
 
@@ -37,32 +38,33 @@ So our above three statements, let's review them, but under the context of being
 
 > This statement could have merit *if* choosing langauge Y over langauge X truly gives your more flexibility in terms of how your user talks. Let's say you are comparing Java and C for a stock trading app. In this app, microseconds literally count in terms of getting a trade before someone else. Thus, you need to be in complete control of items like when the execution of your thread is removed and boot up times are critical in order to react to new information about the market. When you are explaining your choice to the stakeholder, your choice should explain that you have the ability to now get execution times below all competitors *if* you were to choose C over Java. Thus, a future change (how fast can we respond to the market) is now a factor into why we choose our language. 
 
-Now, if the person making the comment really meant something along these lines, then bravo! You have my vote. However, normally, this is not the case. 
 
 `Ha! Library X! Nobody uses Library X anymore, its all about Library Y now. Anyone worth their salt is going to use Library Y!`
 
-> This statement could have merit *if* library X truly gives your user more flexibility over lanaguage Y. For example, let's look at vue.js versus react. Both are UI libraries that utilize javascript. However, they seem to be the same thing in different clothing. If someone really tries to argue for one over the other, I would love to know how that choice really corresponds to it being better for their end user.
+> This statement could have merit *if* library X truly gives your user more flexibility over lanaguage Y. For example, let's look at vue.js versus react. Both are UI libraries that utilize javascript. However, they seem to be the same thing in different clothing. If someone really tries to argue for one over the other, I would love to know how that choice really corresponds to it being better for their end user. The general rule that I follow is *if* you have heard of a language, it's probably pretty good, and most likely can accomplish anything that it's competitor can in terms of your specific domain. People might lose their cool over their comment, but it most likely is true.
 
 `Ugh this code is so old and terrible! I mean look how long this function is! Someone quite bright told me that functions should be small, and not just small, but smaller than small. But dear lord, this thing is 30 lines long! This is why our project is late! I can't work with this!`
 
 > This is one of my favorites. Robert C. Martin wrote a book called clean code. In the book, I would say the central argument is as follows. Every function can be broken down into very small parts (around 1 to 4 lines, where every comment is a failure!). Each of these lines should state some level of abstraction of the problem being broken down (and this concept is what is so butchered by most programmers). However, there is still no empirical evidence that such small functions are actually productive, and if you talk to management of the programmers who are partaking in this practice, they will notice no discernible difference in defects, and more importantly, productivity when someone asks you to add on something (asking for a change!)
 
-`Thus, it is easier to change with regards to future user requirements.`
 
-But wait! Why is that a good future
+**So when we are making decisions about how we are going to construct our system, we should look in one general direction, how does this affect how our user's product is going to evolve over time? Which is not that surpsising of a statement! I mean if you look at the thing we workg with "software" it literally means malleable (soft) product (ware)!**
 
-`Ha! Library X! Nobody uses library X anymore, its all about library Y now. Anyone worth their salt is going to use library Y. Thus, it is easier to change with regards to future user requirements.`
+But wait, Cody, where in the world are you picking up these ideas. How do *you* know that what you are saying is correct!
 
-`Good lord I hate Java. Obviously the best langauage is rust. Thus, it is easier to change with regards to future user requirements.`
+Good point. I have two credible sources, (one I already stole a quote form above) about why I am right. You may have heard of these two names before:
 
-`Hey, here is a blog describing some technology and how to set up the most basic project. We are going to describe 30 steps, the third step is only going to work on my machine. Go language Z! Thus, it is easier to change with regards to future user requirements.`
+The first is Robert C. Martin. Uncle Bob's book about clean architecture is a great read, and I highly advise you to do so. Actually, I would almost recommend it over clean code! However, in the opening of the book, he states the comment I may above, that software really means malleable product. Every architectural choice that we make should be making our software as soft as possible!
 
-Now any sound philosopher would question how the premises could lead to the conclusion of being easier to change. I mean let's disect the great argument given in the statement.
+The second is Dave Thomas. If you do not know Dave Thomas, you are definitley missing out. He wrote an amazing book called the *pragramtic programmer* which any aspiring programmer should read! In the book, he goes through any tips and tricks that programmers can use to give the most amount of business value. In one of these sections, he talks about what makes a good design, and more importantly, how one compares two design choices. The way one compares two designs is which one is easier to change (does that comment seem familiar! It should because it was where I first learned of this principle!). However, I believe I tacked on the fact that it should be easier to change with respect to future user's requirement is what I tacked on.
 
-`Ha! Library X! Nobody uses library X anymore, its all about library Y now!`
+So why should you care about any of this? This just shows that we as a community need to be much more open about *why* we are right, and not just use dogmatic assumptions instead. The dogmatic assumptions are killing us, and our probably the leading problem behind why almost 66% of all software projects fail. 
 
-A strong argument. But wait, are you sure that nobody is using library X anymore? We need to deduce the reasons to why someone would not be using library X 
+I can't tell you how many times even *senior* engineers will come at you with statements that have no merit on the easier to change mantra. Actually, most of the time, when most programmers discuss things I see no relevant objective measure as to which to judge their statements! If no such objective measures exist, how can we ever grow as a community, as a profession?
 
+This is going to keep biting us for decades to come. With how hard it is to actually objetively measure software engineering productivity, this is going to be even harder in the future.
+
+And with that, I leave you. Thank you so much for reading through my first blog post! Hopefully I'll be making one of these every week, so make sure to tune back
 
 
 
