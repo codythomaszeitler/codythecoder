@@ -21,16 +21,12 @@
 title: Cody the Coder
 email: codyzeitler12@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  My name is Cody. I am a coder. I feel like I was born to do this. If you take a look at the syllables in my name, you will actually be able to see that code is a part of my name. Don't see it? Let's try it together. Code-ee. See it? That first part? If you don't you may need glasses, or maybe you need to learn to read. Somehow, I feel if you have gotten this far in the message, its the former, not the latter. Anyways, it is a part of me. I was born to code.
-  This website it to facillate dynamic, non-dogmatic conversations about programming. Is TDD always the best option? Is there any other way to do GUI programming besides MVC? Is Java really all that slow? I hope this will be a place of learning and exploration of WHY we do the things that we do, and not to follow the newest trends blindly (no early returns anyone?). So I invite you to stay awhile and enjoy the articles and the code :)
-  Also, I will ALWAYS include coding examples with my discussions, and I hope you will do the same. And for every conclusion A that I reach, I promise to always have detailed analysis of how I reached that conclusion.
-  Stay awhile and please share! I want the best of the best to teach and for the noobies to learn!
-  With each article there will be a passion level associated with it. This is how "fierce" I am into the contents of this article. They are listed as follows:
-  All discussions listed below...
+  This is one of the best websites that has ever been created. 
+  Don't believe me? Well read just one article, then you'll see I am right.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
-github_username:  jekyll
+github_username:  codythomaszeitler
 
 # Build settings
 theme: minima
